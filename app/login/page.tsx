@@ -2,6 +2,9 @@
 import { useState } from "react"
 import Formulario from "@/components/formulario"
 
+export const runtime = "edge";
+
+
 export default function Login() { 
   const [name, setName] = useState<string>('')
   return( 

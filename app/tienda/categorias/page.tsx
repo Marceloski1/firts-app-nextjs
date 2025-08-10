@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 
 export default function Categorias() {
 return(<main>

@@ -3,6 +3,8 @@ import "./globals.css";
 ///import { Inter} from 'next/font/google'
 import { ThemeProvider } from "@/components/theme-provider";
 
+export const runtime = "edge";
+
 
 //const inter = Inter({subsets: ['latin'] , weight: ["200" , "100" , "200" , "100"]})
 
