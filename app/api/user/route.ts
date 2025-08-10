@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 
-export async function GET(request: Request, { params }) {
+export const runtime = "edge";
+
+export async function GET(request: Request) {
   return NextResponse.json({ message: "El sueño bro" });
 }
 
