@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Animado from "@/components/animations/animado";
 export const runtime = "edge";
 
 
@@ -22,6 +23,9 @@ export default function Home() {
           <div className="m-2 p-2 text-red-400 bg-blue-100 rounded-xl">
             {p.edad}
           </div>
+
+<Animado/>
+<div>Hola</div>
    </main>
      <footer className="">
       <div>
