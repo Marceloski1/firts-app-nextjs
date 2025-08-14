@@ -29,7 +29,7 @@ const headerImageStyle = {
     />
     </div>
       
-     <div className="grid grid-cols-2 font-serif text-black bg-white lg:w-[60%] w-[60%] h-[50%] p-5 rounded-xl mt-[-10%] relative opacity-80">
+     <div className="grid grid-cols-2 font-serif text-black bg-white lg:w-[60%] w-[60%] h-[50%] p-5 rounded-xl mt-[-10%] relative">
        <div>
        <h2 className="text-3xl text-justify mt-[10%] font-extrabold ">Para que hice está página web?</h2>  
        <h3 className="text-xl text-start  mt-[10%]"> Aquí encontraras recuerdos de nuestro tiempo juntos</h3>
