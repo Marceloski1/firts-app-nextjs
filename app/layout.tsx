@@ -9,8 +9,8 @@ export const runtime = "edge";
 //const inter = Inter({subsets: ['latin'] , weight: ["200" , "100" , "200" , "100"]})
 
 export const metadata = {
-  title: 'My firts next application' , 
-  description: 'I create this app for test my self'
+  title: 'Un regalo que debí haberte dado hace tiempo' , 
+  description: 'I create this app for us'
 } 
 
 export default function RootLayout({
