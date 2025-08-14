@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <title>My first app in nextjs</title>
+        <title>{metadata.title}</title>
             <meta name="theme-color" content="#fb923c" />
       <body
         className={`antialiased `}  
