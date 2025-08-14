@@ -11,8 +11,8 @@ export const runtime = "edge";
 export const metadata = {
   title: 'Un regalo que debí haberte dado hace tiempo' , 
   description: 'I create this app for us' ,
-  },
-} 
+  }
+
 
 export default function RootLayout({
   children,
