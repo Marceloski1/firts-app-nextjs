@@ -1,37 +1,40 @@
-import Animado from "@/components/animations/animado";
-import Navbar from "@/components/ui/navbar";
 import Image from "next/image";
 import FooterLanding from "@/components/ui/footer-landing";
 import Header from "@/components/ui/header";
 import Section1 from "@/components/ui/section1";
 import Section2 from "@/components/ui/section2";
+import SectionPrincipal from "@/components/ui/section-principal";
+import dynamic from 'next/dynamic';
 
-import a16 from '../public/adri-images/a16.jpg'
-import a15 from '../public/adri-images/a15.jpg'
+import liana from '../public/liana-flores.jpg' 
 
 export const runtime = "edge";
 
 export default function Home() {
+
+  const lianaStyle = {
+    width: '100%' , 
+    height: '100px'
+  }
+
   
-
-
+ 
   return (
-    <div className="font-sans bg-green-100">
+    <div className="font-sans bg-green-50" id="confetti-area">
       <Header />
-      
-      <main className="container mx-auto px-4 py-8">
-      
+     
+      <main className="container mx-auto py-8">
+        <SectionPrincipal/>
         <Section1/>
-        <Section2 />
-
-        {/* Sección 3 */}
-        <section id="section3" className="mb-12">
-          {/* Contenido de la sección 3 */}
-        </section>
-
-       
+        <div className="ml-[-100] mr-[-100]" >
+        <Image 
+         src={liana}
+         alt="Flores para ti"
+        style={lianaStyle}
+        />
+        </div>
+        <Section2 />       
       </main>
-      
       <FooterLanding />
     </div>
   );

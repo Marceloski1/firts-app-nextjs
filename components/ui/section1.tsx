@@ -17,7 +17,7 @@ Y ahora, como un zombi, deambulo sin fin, recordando los momentos que vivimos si
 `
 
   return (
-<section id="section1" className="mb-12">
+<section id="section1" className="mb-12 px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="w-full lg:w-1/2 order-2 lg:order-1">
               <div className="relative aspect-square lg:aspect-auto lg:h-96">
@@ -32,8 +32,9 @@ Y ahora, como un zombi, deambulo sin fin, recordando los momentos que vivimos si
               <Animado />
             </div>
             
-            <div className="w-full lg:w-1/2 order-1 lg:order-2">
-              <p className="whitespace-pre-wrap font-black font-serif p-4 bg-white bg-opacity-70 rounded-lg shadow-md text-sm md:text-base lg:text-lg">
+            <div className="w-full lg:w-1/2 order-1 lg:order-2 bg-white">
+            <p className="whitespace-pre-wrap font-black text-green-600 font-serif pl-3 pr-3 text-sm md:text-base lg:text-lg">Y ahora un poema...</p>
+              <p className="whitespace-pre-wrap font-black font-serif p-3 pt-0  bg-opacity-70 rounded-lg shadow-md text-sm md:text-base lg:text-lg">
                 {poema}
               </p>
             </div>

@@ -17,14 +17,14 @@ export default function Card(param:CardProps) {
   }
   
   return (
-    <div className="bg-red-100 rounded-sm p-4 m-5 justify-items-center space-y-2">
+    <div className="bg-green-100 rounded-sm p-4 m-5 justify-items-center space-y-2">
         <Image
         src={param.param.image}
         alt={param.param.title}
         style={styleImage}
         className="rounded-xl border-0"
         />
-        <p className="uppercase">
+        <p className="uppercase text-center">
           {param.param.description}
         </p>
     </div>

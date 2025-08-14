@@ -17,19 +17,19 @@ const headerImageStyle = {
 
 
   return (
-    <header className="text-center space-y-3 mb-4 justify-items-center"> 
+    <header className="text-center space-y-3 mb-4 font-serif justify-items-center"> 
       
        <div className="justify-items-center bg-gradient-to-r from-indigo-100 via-red-300 to-green-300">
        <h1 className="xl:text-5xl md:text-5xl text-3xl  absolute text-white font-extrabold z-1000 mt-[8%] ">Una promesa casi cumplida</h1>
     <Image
     src={a14}
-    alt="Los Beatles"
+    alt="Casual"
     style={headerImageStyle}
    
     />
     </div>
       
-     <div className="grid grid-cols-2 bg-white lg:w-[60%] w-[60%] h-[50%] p-5 rounded-xl mt-[-10%] relative opacity-80">
+     <div className="grid grid-cols-2 font-serif bg-white lg:w-[60%] w-[60%] h-[50%] p-5 rounded-xl mt-[-10%] relative opacity-80">
        <div>
        <h2 className="text-3xl text-justify mt-[10%] font-extrabold from-neutral-950">Para que hice está página web?</h2>  
        <h3 className="text-xl text-start  mt-[10%]"> Aquí encontraras recuerdos de nuestro tiempo juntos</h3>
