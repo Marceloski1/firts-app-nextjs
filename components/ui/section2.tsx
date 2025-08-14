@@ -28,7 +28,7 @@ export default function Section2() {
     return (
       <section className="justify-items-center space-y-1 bg-white w-[100%]" id="section2">
    <h4 className="text-xl text-center p-4 uppercase">
-    Y a pesar de todo...
+    Y a pesar de que no pudo seguir...
    </h4>
    <div className="grid grid-cols-3 gap-3">
    {

@@ -7,7 +7,7 @@ export default function Header() {
 const imageStyle = {
   boderRadius: '50%' ,
   border: '1px solid #fff' , 
-  width:'100%'
+
 }
 
 const headerImageStyle = { 
@@ -20,7 +20,7 @@ const headerImageStyle = {
     <header className="text-center space-y-3 mb-4 justify-items-center"> 
       
        <div className="justify-items-center bg-gradient-to-r from-indigo-100 via-red-300 to-green-300">
-       <h1 className="xl:text-5xl md:text-5xl text-3xl  absolute text-white font-extrabold z-1000 mt-[8%] ">Bienvenida a tú jardín virtual</h1>
+       <h1 className="xl:text-5xl md:text-5xl text-3xl  absolute text-white font-extrabold z-1000 mt-[8%] ">Una promesa casi cumplida</h1>
     <Image
     src={a14}
     alt="Los Beatles"
@@ -40,7 +40,7 @@ const headerImageStyle = {
            src={a21}
            alt={"Nuestro día de Sanvalentin"} 
            style={imageStyle}
-           className="opacity-80 corazon"
+           className=" corazon"
            />
        </div>
   </div>
