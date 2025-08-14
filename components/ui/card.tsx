@@ -17,7 +17,7 @@ export default function Card(param:CardProps) {
   }
   
   return (
-    <div className="bg-green-100 rounded-sm p-4 m-5 justify-items-center space-y-2">
+    <div className="bg-green-100 rounded-sm p-4 m-5 justify-items-center space-y-2 text-black">
         <Image
         src={param.param.image}
         alt={param.param.title}

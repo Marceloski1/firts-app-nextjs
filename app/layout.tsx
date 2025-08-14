@@ -12,10 +12,6 @@ export const metadata = {
   title: 'Un regalo que debí haberte dado hace tiempo' , 
   description: 'I create this app for us' ,
   },
-  applicationName: 'Adriana promise' , 
-  authors: [
-    { name: 'Marcelo' }
-  ],
 } 
 
 export default function RootLayout({

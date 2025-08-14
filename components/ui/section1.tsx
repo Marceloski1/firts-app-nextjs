@@ -34,7 +34,7 @@ Y ahora, como un zombi, deambulo sin fin, recordando los momentos que vivimos si
             
             <div className="w-full lg:w-1/2 order-1 lg:order-2 bg-white">
             <p className="whitespace-pre-wrap font-black text-green-600 font-serif pl-3 pr-3 text-sm md:text-base lg:text-lg">Y ahora un poema...</p>
-              <p className="whitespace-pre-wrap font-black font-serif p-3 pt-0  bg-opacity-70 rounded-lg shadow-md text-sm md:text-base lg:text-lg">
+              <p className="whitespace-pre-wrap font-black font-serif text-black p-3 pt-0  bg-opacity-70 rounded-lg shadow-md text-sm md:text-base lg:text-lg">
                 {poema}
               </p>
             </div>
